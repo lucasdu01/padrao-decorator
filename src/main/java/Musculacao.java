@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+public class Musculacao extends PlanoDecorator {
 
-public class Musculacao {
+    public Musculacao(Plano plano) {
+        super(plano);
+    }
+
+    public float getPercentualMensalidade() {
+        return 10.0f;
+    }
 }

@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Pilates extends PlanoDecorator {
 
-public class Pilates {
+    public Pilates(Plano plano) {
+        super(plano);
+    }
+
+    public float getPercentualMensalidade() {
+        return 5.0f;
+    }
+
 }

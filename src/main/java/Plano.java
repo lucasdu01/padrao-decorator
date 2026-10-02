@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
 public interface Plano {
+
+    float getMensalidade();
 }

@@ -1,4 +1,14 @@
-package PACKAGE_NAME;
+public class PlanoAcademia implements Plano {
 
-public class PlanoAcademia {
+    public float mensalidade;
+
+    public PlanoAcademia() {}
+
+    public PlanoAcademia(float mensalidade) {
+        this.mensalidade = mensalidade;
+    }
+
+    public float getMensalidade() {
+        return mensalidade;
+    }
 }

@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+public class Natacao extends PlanoDecorator {
 
-public class Natacao {
+    public Natacao(Plano plano) {
+        super(plano);
+    }
+
+    public float getPercentualMensalidade() {
+        return 20.0f;
+    }
 }
